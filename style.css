@@ -1,0 +1,71 @@
+body{background-color:white;}
+h1{color:orchid; background-color:rebeccapurple;}
+h3{color:rosybrown}
+.header{display: flex;
+justify-content: space-between;
+}
+.menu{
+    display: flex;
+ 
+    background-color: pink;
+    padding: 15px;
+    font-size: 20px;
+    font-family: Century Gothic;
+    font-weight: 400;
+    color: white;
+}
+body{
+    background-color:#ffffff;
+    margin:0px;
+    justify-content: space-evenly;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+
+    font-family: sans-serif;
+    
+}
+.grid img{
+    display:flex;
+    flex-wrap:wrap;
+    border: 2px solid #000000;
+    border-radius: 50px;
+}
+a:link{
+    color:white;
+}
+a:visited{
+    color:white;
+}
+
+.origami{
+    margin:15px;
+    margin-top: 12px;
+margin-bottom: 12px;
+width: 300px;
+height: 600px;
+padding: 25px;
+background-color:#ffffff;
+}
+.camel:hover{
+    transform: scale(1,1.1);
+    }
+    .chameleon:hover{
+        transform: scale(1,1.1);
+        }
+        .cicada:hover{
+            transform: scale(1,1.1);
+            }
+            .bear:hover{
+                transform: scale(1,1.1);
+                }
+                .panda:hover{
+                    transform: scale(1,1.1);
+                    }
+                    .pigeon:hover{
+                        transform: scale(1,1.1);
+                        }
+                        a{
+                            text-decoration: none;
+                        }
